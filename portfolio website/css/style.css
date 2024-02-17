@@ -138,8 +138,8 @@ h1,h2,h3,h4,h5,h6 {
     background-color: #222
 }
 
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-    background-color: #7a7a7a
+.navbar-default .navbar-toggle:hover .navbar-default .navbar-toggle:focus{
+    background-color: #690000
 }
 
 .navbar-default .nav li a {
@@ -147,19 +147,26 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #000;
+    color: #000000;
     text-decoration: none
 }
 
-.navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover{
     color: #7a7a7a;
     outline: 0
 }
+.navbar-default .nav li a:focus {
+    color: #56fff9f1;
+    outline: 0
+}
 
+.navbar-default .nav li a.selected {
+    color: #FF0000; 
+}
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #7a7a7a
+    color: #bc0a0a;
+    background-color: #4f0aef
 }
 
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {

@@ -10,6 +10,16 @@
 
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
+function changeColor(element) {
+  var navItems = document.querySelectorAll('.nav.navbar-nav.navbar-right li a');
+  // console.log(navItems);
+  for (var i = 0; i < navItems.length; i++) {
+      navItems[i].classList.remove('selected');
+  }
+  // console.log(navItems);
+  element.classList.add('selected');
+  // console.log(navItems);
+}
 
 ( function( window ) {
 
